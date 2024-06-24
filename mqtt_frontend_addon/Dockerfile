@@ -12,8 +12,6 @@ WORKDIR /app
 # Copy Next.js app
 COPY . .
 
-# Copy AppArmor profile
-COPY apparmor.txt /etc/apparmor.d/
 
 # Install Next.js dependencies
 RUN npm install
