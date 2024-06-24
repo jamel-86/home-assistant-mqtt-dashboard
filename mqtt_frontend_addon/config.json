@@ -1,32 +1,16 @@
 {
   "name": "MQTT Dashboard Add-on",
   "version": "1.0",
-  "slug": "nextjs_addon",
+  "slug": "mqtt_frontend_addon",
   "description": "A MQTT Dashboard Add-on for Home Assistant",
   "arch": ["armv7", "armhf", "aarch64", "amd64", "i386"],
   "startup": "services",
   "boot": "auto",
   "host_network": true,
   "options": {
-    "server_port": 3000,
-    "broker_host": "ws://192.168.50.196",
-    "clientId": "homeassistant-frontend",
-    "username": "frontend",
-    "password": "frontend",
-    "protocolId": "MQTT",
-    "protocol": "mqtt",
-    "keepalive": 60,
-    "reconnectPeriod": 5000
+    "port": 3000
   },
   "schema": {
-    "server_port": "int",
-    "broker_host": "string",
-    "clientId": "string",
-    "username": "string",
-    "password": "string",
-    "protocolId": "string",
-    "protocol": "string",
-    "keepalive": "int",
-    "reconnectPeriod": "int"
+    "port": "int"
   }
 }
