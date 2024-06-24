@@ -1,4 +1,8 @@
 {
   "name": "Home Assistant mqtt dashboard Add-on",
-  "url": "https://github.com/jamel-86/home-assistant-mqtt-dashboard"
+  "maintainer": "@jamel-86",
+  "email": "jamel.nacef@gmail.com",
+  "keywords": ["mqtt", "dashboard", "nextjs"],
+  "url": "https://github.com/jamel-86/home-assistant-mqtt-dashboard",
+  "arch": ["armv7", "armhf", "aarch64", "amd64", "i386"]
 }
