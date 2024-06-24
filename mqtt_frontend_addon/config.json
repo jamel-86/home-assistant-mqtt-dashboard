@@ -8,9 +8,25 @@
   "boot": "auto",
   "host_network": true,
   "options": {
-    "server_port": 3000
+    "server_port": 3000,
+    "broker_host": "ws://192.168.50.196",
+    "client_id": "homeassistant-frontend",
+    "username": "frontend",
+    "password": "frontend",
+    "protocol_id": "MQTT",
+    "protocol": "mqtt",
+    "keepalive": 60,
+    "reconnect_period": 5000
   },
   "schema": {
-    "server_port": "int"
+    "server_port": "port",
+    "broker_host": "str",
+    "client_id": "str",
+    "username": "str",
+    "password": "str",
+    "protocol_id": "str",
+    "protocol": "str",
+    "keepalive": "int",
+    "reconnect_period": "int"
   }
 }
