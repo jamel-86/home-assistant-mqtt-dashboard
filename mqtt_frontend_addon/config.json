@@ -1,7 +1,6 @@
 {
   "name": "MQTT Dashboard Add-on",
   "version": "1.0",
-  "code-owners": ["@jamel-86"],
   "slug": "nextjs_addon",
   "description": "A MQTT Dashboard Add-on for Home Assistant",
   "arch": ["armv7", "armhf", "aarch64", "amd64", "i386"],
