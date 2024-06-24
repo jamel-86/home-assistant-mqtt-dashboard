@@ -8,11 +8,9 @@
   "boot": "auto",
   "host_network": true,
   "options": {
-    "server_port": 3000,
-    "broker_host": "ws://192.168.50.196"
+    "server_port": 3000
   },
   "schema": {
-    "server_port": "int",
-    "broker_host": "string"
+    "server_port": "int"
   }
 }
