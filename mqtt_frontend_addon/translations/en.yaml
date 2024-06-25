@@ -1,0 +1,28 @@
+configuration:
+  server_port:
+    name: Port
+    description: Port for the frontend UI
+  broker_host:
+    name: Broker Host
+    description: Hostname of the MQTT broker ( please use ws://[IP-OF-YOUR-BROKER] )
+  client_id:
+    name: Client ID
+    description: Client ID for the frontend
+  username:
+    name: Username
+    description: Username for the broker
+  password:
+    name: Password
+    description: Password for the broker
+  protocol_id:
+    name: Protocol ID
+    description: Protocol ID for the broker
+  protocol:
+    name: Protocol
+    description: Protocol for the broker
+  keepalive:
+    name: Keepalive
+    description: Keepalive for the broker
+  reconnect_period:
+    name: Reconnect Period
+    description: Reconnect Period for the broker
