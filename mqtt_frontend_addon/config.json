@@ -1,6 +1,6 @@
 {
   "name": "MQTT Dashboard Add-on",
-  "version": "1.0",
+  "version": "1.1.0",
   "slug": "mqtt_frontend_addon",
   "description": "A MQTT Dashboard Add-on for Home Assistant",
   "arch": ["armv7", "armhf", "aarch64", "amd64", "i386"],
