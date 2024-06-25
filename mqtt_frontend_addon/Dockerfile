@@ -17,7 +17,7 @@ COPY . .
 RUN npm install
 
 # Build the Next.js app and log output
-RUN npm run build || { cat npm-debug.log; exit 1; }
+RUN npm run build > build.log 2>&1 || { cat build.log; exit 1; }
 
 # Expose the port
 EXPOSE 3000
