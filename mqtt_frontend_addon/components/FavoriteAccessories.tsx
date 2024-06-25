@@ -64,13 +64,6 @@ const FavoriteAccessories = ({
             initialState={accessory.initialState}
             name={accessory.name}
             type={accessory.type}
-            onClick={
-              accessory.type === "light"
-                ? onLightLongPress
-                : accessory.type === "thermostat"
-                  ? onThermostatLongPress
-                  : undefined
-            }
             onLongPress={
               accessory.type === "thermostat"
                 ? onThermostatLongPress

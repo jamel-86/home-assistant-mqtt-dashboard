@@ -13,7 +13,6 @@ export const AccessoryCard = ({
   value,
   controllable = true, // Default value is true, meaning the card is controllable by default
   type = "light",
-  onClick,
   onLongPress,
 }: {
   override?: React.CSSProperties;
@@ -25,7 +24,6 @@ export const AccessoryCard = ({
   value?: number;
   controllable?: boolean;
   type?: string;
-  onClick?: () => void;
   onLongPress?: (name: string) => void;
 }) => {
   const [state, setState] = useState(initialState);

@@ -55,6 +55,7 @@ export const Navbar = () => {
       >
         <NavbarItem className="hidden sm:flex gap-2">
           <Link isExternal href={siteConfig.links.github}>
+          {/* eslint-disable-next-line */}
             <GithubIcon className="text-default-500" />
           </Link>
           <ThemeSwitch />
